@@ -6,7 +6,6 @@ let dbURI = config.dbURI
 // Connect to the database
 mongoose.connect(dbURI, {
     useNewUrlParser: true,
-    // TODO: check
     // useCreateIndex: true,
     // useUnifiedTopology: true,
     // useFindAndModify: false,
