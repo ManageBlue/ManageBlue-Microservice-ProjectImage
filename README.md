@@ -1,4 +1,4 @@
-# ManageBlue-Microservice-Projects
+# ManageBlue-Microservice-Images
 Backend microservice for images of projects of the ManageBlue App.
 
 ## Models
