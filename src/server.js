@@ -29,7 +29,7 @@ require("./routes/projectImage")(server);
 require("./routes/healthcheck")(server);
 require("./routes/metrics")(server);
 
-server.get("/images", (req, res) => {
+server.get("/", (req, res) => {
     res.json({ message: "Images server is running!" });
 });
 
