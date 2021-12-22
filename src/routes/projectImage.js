@@ -17,5 +17,5 @@ module.exports = projectsRouter => {
     // Return project by ID
     router.get("/:id", projectsController.returnByID);
 
-    projectsRouter.use('/api/v1/projectImage', router);
+    projectsRouter.use('/images/api/v1', router);
 };

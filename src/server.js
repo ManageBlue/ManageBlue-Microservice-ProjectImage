@@ -29,8 +29,8 @@ require("./routes/projectImage")(server);
 require("./routes/healthcheck")(server);
 require("./routes/metrics")(server);
 
-server.get("/", (req, res) => {
-    res.json({ message: "Server is running!" });
+server.get("/images", (req, res) => {
+    res.json({ message: "Images server is running!" });
 });
 
 
